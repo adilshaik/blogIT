@@ -18,12 +18,12 @@
             <td>{{formatDate createdAt 'MMMM Do YYYY, h:mm:ss a'}}</td>
             <td>{{status}}</td>
             <td>
-                <a href="/edit/{{_id}}" class="btn blue edit">
+                <a href="/edit/{{_id}}" class="btn blue edit-btn">
                     <i class="fas fa-user-edit"></i>
                 </a>
                 <form method="POST" action="/{{_id}}" id="delete-form">
                     <input type="hidden" name="_method" value="DELETE">
-                    <button class="btn red" type="submit"><i class="fas fa-trash-alt"></i></button>
+                    <button class="btn red delete-btn" type="submit"><i class="fas fa-trash-alt"></i></button>
                 </form>
             </td>
         </tr>

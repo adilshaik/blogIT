@@ -41,7 +41,7 @@ ul li a {
   font-size: 1.3em;
 }
 
-.edit {
+.edit-btn {
   float: left;
   margin-right: 10px;
 }
@@ -115,4 +115,15 @@ ul li a {
   border-top: 2px solid rgba(0, 0, 0, 0.1);
   border-left: 2px solid rgba(0, 0, 0, 0.1);
   box-shadow: 10px 10px 10px rgb(206, 202, 202);
+}
+
+@media screen and (max-width: 848px) {
+  .edit-btn {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .delete-btn {
+    width: 100%;
+  }
 }
