@@ -1,4 +1,11 @@
 <h4 id="heading" class="center">Filtered Blogs</h4>
+<form action="/filter" method="POST" class="col s12" id="searchForm">
+    <div class="input-field col s6">
+        <i class="material-icons prefix">search</i>
+        <input id="icon_prefix" type="text" name="search" class="validate">
+        <label for="icon_prefix">Search blog</label>
+    </div>
+</form>
 <div class="row">
     {{#each blogs}}
     <div class="col s12 m4 blogs">
